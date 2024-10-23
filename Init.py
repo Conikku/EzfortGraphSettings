@@ -1,8 +1,6 @@
 import os
 import shutil
 
- print("EzfortGraphSettings by Conikku | https://github.com/Conikku/EzfortGraphSettings")
-
 # Set the path to the Fortnite GameUserSettings.ini
 fortnite_ini_path = os.path.join(os.getenv('LOCALAPPDATA'), "FortniteGame", "Saved", "Config", "WindowsClient", "GameUserSettings.ini")
 
@@ -11,6 +9,7 @@ preset_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Function to display the main menu and get user choice
 def main_menu():
+    print("EzfortGraphSettings by Conikku | https://github.com/Conikku/EzfortGraphSettings")
     print("1: Save current settings as a preset")
     print("2: Apply a preset")
     choice = input("Please enter 1 or 2: ")
